@@ -11,14 +11,14 @@ clc
 global z h len Num
 Num=2^10;     % grid number
 %xlim=20;     % spacial width
-zstart=-20;
-zend=20;
+zstart=-10;
+zend=10;
 h=(zend-zstart)/Num;     % spacial step
 z=zstart:h:zend-h;
 len=length(z);
 
-c=-1;
+c=-5;
 
 psi=ITP_trap(c);
 
-save grst.mat
+save grst_in_a_box.mat

@@ -1,7 +1,7 @@
 function psi=ITP_trap(c)
 %% Parameterization
 global z h len Num
-V=1/2*z.^2;
+V=zeros(1,length(z));
 dt=-1i/100;    % time step
 
 %% Exact 
