@@ -20,3 +20,5 @@ len=length(z);
 c=-1;
 
 psi=ITP_trap(c);
+
+save grst.mat
