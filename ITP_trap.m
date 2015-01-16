@@ -23,7 +23,7 @@ while delta>10^-6
     
     psi=1/sqrt(sum(abs(psi).^2*h))*psi;
     mup=conj(psi)*computeH(len,V,c,psi,h,z)*psi.';
-    delta=abs(mu-mup);
+    delta=abs(mu-mup)
     mu=mup;
     if mod(ncount,5)==0
 %         plot(x,psi.*conj(psi),x,...

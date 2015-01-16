@@ -17,8 +17,8 @@ h=(zend-zstart)/Num;     % spacial step
 z=zstart:h:zend-h;
 len=length(z);
 
-c=-1;
+c=0;
 
 psi=ITP_trap(c);
 
-save grst.mat
+save grst_c0.mat
